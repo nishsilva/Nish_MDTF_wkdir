@@ -1,0 +1,29 @@
+MDTF PACKAGE LOG
+
+Started logging at 2024-04-04 14:44:12.497790
+git hash/branch: f69e7459a928370094a8b9043bfafbcc3fa45ba8 (on main)
+sys.platform: 'linux'
+sys.version: '3.11.8 | packaged by conda-forge | (main, Feb 16 2024, 20:53:32) [GCC 12.3.0]'
+--------------------------------------------------------------------------------
+
+14:44:12 DEBUG: log (logs.py line 328):
+    Setting CASE_ROOT_DIR to MODEL_DATA_ROOT = '/glade/work/netige/mdtf_Apr24/mdtf/inputdata/model'.
+
+14:44:12 DEBUG: log (logs.py line 328):
+    'sample_dataset' not supplied, using CASENAME = 'zosgrtest'.
+
+14:44:12 ERROR: log (logs.py line 328):
+    Deactivated <#ew4G:zosgrtest.SL_error> due to PodConfigError("Couldn't parse the settings.jsonc file: Caught exception while setting up DataSource: MDTFFileNotFoundError("[Errno 2] No such file or directory: "POD_OBS_DATA not found at '/glade/work/netige/mdtf_Apr24/mdtf/inputdata/obs_data/SL_error'."").").
+
+14:44:12 ERROR: log (logs.py line 328):
+    Deactivated <#pG0K:zosgrtest> due to ChildFailureEvent("Deactivating <#pG0K:zosgrtest> due to failure of all child objects.").
+
+14:44:12 INFO: log (logs.py line 328):
+    Deactivated <#eyiZ:SL_error.zos> due to PropagatedEvent("Caught exception PodConfigError("Couldn't parse the settings.jsonc file: Caught exception while setting up DataSource: MDTFFileNotFoundError("[Errno 2] No such file or directory: "POD_OBS_DATA not found at '/glade/work/netige/mdtf_Apr24/mdtf/inputdata/obs_data/SL_error'."").") from deactivation of parent <#ew4G:zosgrtest.SL_error>.").
+
+14:44:12 DEBUG: log (logs.py line 328):
+    Writing file /glade/work/netige/mdtf_Apr24/mdtf/wkdir/MDTF_zosgrtest_1993_1994/config_save.json
+
+14:44:12 INFO: log (logs.py line 328):
+    <#pG0K:zosgrtest>: Creating '/glade/work/netige/mdtf_Apr24/mdtf/wkdir/MDTF_zosgrtest_1993_1994.tar'.
+

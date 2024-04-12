@@ -1,0 +1,51 @@
+{
+  "site": "local",
+  "input_file": "/glade/work/netige/mdtf/MDTF-diagnostics/src/SL_error.jsonc",
+  "CASE_ROOT_DIR": null,
+  "OBS_DATA_ROOT": "../inputdata/obs_data/",
+  "flag_root_dir": null,
+  "WORKING_DIR": "../wkdir",
+  "OUTPUT_DIR": "../wkdir",
+  "convention": "CMIP",
+  "large_file": false,
+  "strict": false,
+  "disable_preprocessor": false,
+  "overwrite_file_metadata": false,
+  "data_manager": "Local_File",
+  "sample_dataset": "",
+  "data_type": "single_run",
+  "CASENAME": null,
+  "FIRSTYR": null,
+  "LASTYR": null,
+  "environment_manager": "Conda",
+  "conda_root": "/glade/u/apps/opt/conda",
+  "conda_env_root": "/glade/work/netige/mdtf/envs.MDTF",
+  "micromamba_exe": "",
+  "runtime_manager": "subprocess",
+  "output_manager": "html",
+  "save_ps": true,
+  "save_nc": true,
+  "save_non_nc": false,
+  "make_variab_tar": true,
+  "overwrite": false,
+  "verbose": 0,
+  "quiet": 0,
+  "file_transfer_timeout": 300,
+  "keep_temp": false,
+  "test_mode": false,
+  "dry_run": false,
+  "MODEL_DATA_ROOT": "../inputdata/model/",
+  "case_list": {
+    "zosgrtest": {
+      "CASENAME": "zosgrtest",
+      "model": "CM4",
+      "convention": "CMIP",
+      "FIRSTYR": 1993,
+      "LASTYR": 1994,
+      "pod_list": [
+        "SL_error"
+      ],
+      "experiment": ""
+    }
+  }
+}
